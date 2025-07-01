@@ -8,22 +8,22 @@
     .features {
         display: flex;
         flex-direction: row;
-        justify-content: space-eround;
+        justify-content: space-around;
     }
 }
 
-@media (min-width:1024px) {
+@media(min-width:1024px) {
     .features {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    }   
+    }
 }
 
 @media(min-width:1440px) {
     .features {
         display: flex;
         flex-direction: row;
-        justify-content: space-eround;  
-    }  
+        justify-content: space-around;
+    }
 }
